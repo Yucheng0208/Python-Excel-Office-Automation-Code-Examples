@@ -1,37 +1,3 @@
-# Q6
-import ch6_5_2  # 假設 `ch6-5-2.py` 與本程式在同一資料夾
-
-a = int(input("請輸入第一個數字: "))
-b = int(input("請輸入第二個數字: "))
-
-print("最大值:", ch6_5_2.maxValue(a, b))
-
-# Q7
-import turtle
-
-t = turtle.Turtle()
-
-# 畫第一個長方形
-for _ in range(2):
-    t.forward(100)
-    t.right(90)
-    t.forward(200)
-    t.right(90)
-
-# 轉向以畫出第二個長方形
-t.right(90)
-t.forward(50)
-t.left(90)
-
-for _ in range(2):
-    t.forward(200)
-    t.right(90)
-    t.forward(100)
-    t.right(90)
-
-turtle.done()
-
-# Q8
 import win32com.client
 import time
 
