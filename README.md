@@ -8,9 +8,9 @@
 
 ```bash
 📂 Python-Excel-Office-Automation-Code-Examples
-│── 📂 Chapter_01
-│── 📂 Chapter_02
-│── 📂 Chapter_03  
+│── 📂 Ch01
+│── 📂 Ch02
+│── 📂 Ch03  
 │── ...
 │── 📜 README.md
 ```
